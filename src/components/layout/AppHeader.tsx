@@ -151,7 +151,7 @@ export const AppHeader: React.FC<AppHeaderProps> = ({ currentTab, onNavigateTab,
             className="flex items-center gap-2 p-1.5 pr-2.5 rounded-xl hover:bg-slate-800 transition-colors cursor-pointer border border-transparent hover:border-slate-800"
           >
             <img
-              src={currentUser?.avatarUrl || '/src/assets/images/avatar_trader_sarah_1793624992270.jpg'}
+              src={currentUser?.avatarUrl || '/assets/images/avatar_trader_sarah_1793624992270.jpg'}
               alt={currentUser?.name}
               className="w-7 h-7 rounded-lg object-cover"
               referrerPolicy="no-referrer"

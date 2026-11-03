@@ -369,7 +369,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
         {/* Marquee Visual Hero Card */}
         <div className="w-full max-w-5xl relative rounded-2xl overflow-hidden border border-slate-800 shadow-2xl bg-slate-950 group">
           <img
-            src="/src/assets/images/tradepro_hero_terminal_1793625121092.jpg"
+            src="/assets/images/tradepro_hero_terminal_1793625121092.jpg"
             alt="BINANY TRADING Terminal Interface"
             className="w-full h-auto max-h-[560px] object-cover transition-transform duration-700 group-hover:scale-[1.01]"
             referrerPolicy="no-referrer"

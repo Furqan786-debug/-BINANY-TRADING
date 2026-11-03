@@ -7,7 +7,7 @@ export const TestimonialsSection: React.FC = () => {
       name: 'Sarah Lin',
       role: 'Senior Portfolio Strategist',
       org: 'Apex Alpha Partners',
-      avatar: '/src/assets/images/avatar_trader_sarah_1793624992270.jpg',
+      avatar: '/assets/images/avatar_trader_sarah_1793624992270.jpg',
       quote:
         'The precision of the candlestick terminal and the responsiveness of the simulated order book allowed our analysts to stress-test high-leverage hedging models across Bitcoin and S&P 500 without risking real treasury capital.',
       metric: 'Tested 140+ algorithmic setups in demo sandbox',
@@ -16,7 +16,7 @@ export const TestimonialsSection: React.FC = () => {
       name: 'Marcus Vance',
       role: 'Chief Risk Officer',
       org: 'Vance Quantitative Fund',
-      avatar: '/src/assets/images/avatar_trader_marcus_1793624992948.jpg',
+      avatar: '/assets/images/avatar_trader_marcus_1793624992948.jpg',
       quote:
         'Having an institutional-grade platform with realistic slippage, full margin calculations, and verifiable audit trails makes BINANY TRADING the best trading environment we have evaluated to date.',
       metric: 'Zero slippage hallucination on large simulated fills',

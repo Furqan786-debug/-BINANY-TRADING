@@ -45,7 +45,7 @@ const PRESET_USERS: User[] = [
     email: 'trader@tradepro.io',
     role: 'user',
     status: 'active',
-    avatarUrl: '/src/assets/images/avatar_trader_sarah_1793624992270.jpg',
+    avatarUrl: '/assets/images/avatar_trader_sarah_1793624992270.jpg',
     phone: '+1 (555) 234-5678',
     country: 'United States',
     kycTier: 'tier2',
@@ -62,7 +62,7 @@ const PRESET_USERS: User[] = [
     email: 'admin@tradepro.io',
     role: 'admin',
     status: 'active',
-    avatarUrl: '/src/assets/images/avatar_trader_marcus_1793624992948.jpg',
+    avatarUrl: '/assets/images/avatar_trader_marcus_1793624992948.jpg',
     phone: '+44 20 7946 0991',
     country: 'United Kingdom',
     kycTier: 'tier3',
@@ -245,7 +245,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
       email: normalizedEmail,
       role: 'user',
       status: 'active',
-      avatarUrl: '/src/assets/images/avatar_trader_sarah_1793624992270.jpg',
+      avatarUrl: '/assets/images/avatar_trader_sarah_1793624992270.jpg',
       kycTier: 'tier1',
       emailVerified: true,
       twoFactorEnabled: false,
@@ -274,7 +274,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
       email: normalizedEmail,
       role: 'user',
       status: 'active',
-      avatarUrl: '/src/assets/images/avatar_trader_sarah_1793624992270.jpg',
+      avatarUrl: '/assets/images/avatar_trader_sarah_1793624992270.jpg',
       kycTier: 'tier1',
       emailVerified: false,
       twoFactorEnabled: false,
@@ -336,8 +336,8 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
       status: params.status,
       avatarUrl:
         params.role === 'admin'
-          ? '/src/assets/images/avatar_trader_marcus_1793624992948.jpg'
-          : '/src/assets/images/avatar_trader_sarah_1793624992270.jpg',
+          ? '/assets/images/avatar_trader_marcus_1793624992948.jpg'
+          : '/assets/images/avatar_trader_sarah_1793624992270.jpg',
       phone: params.phone || '',
       country: params.country || 'Global',
       kycTier: 'tier1',
