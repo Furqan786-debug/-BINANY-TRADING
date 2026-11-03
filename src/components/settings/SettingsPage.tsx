@@ -42,8 +42,8 @@ export const SettingsPage: React.FC = () => {
   };
 
   const avatarOptions = [
-    { label: 'Sarah (Trader)', url: '/src/assets/images/avatar_trader_sarah_1793624992270.jpg' },
-    { label: 'Marcus (Admin/Analyst)', url: '/src/assets/images/avatar_trader_marcus_1793624992948.jpg' },
+    { label: 'Sarah (Trader)', url: '/assets/images/avatar_trader_sarah_1793624992270.jpg' },
+    { label: 'Marcus (Admin/Analyst)', url: '/assets/images/avatar_trader_marcus_1793624992948.jpg' },
   ];
 
   return (

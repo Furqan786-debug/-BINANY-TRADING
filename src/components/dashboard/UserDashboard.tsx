@@ -48,7 +48,7 @@ export const UserDashboard: React.FC<UserDashboardProps> = ({ onNavigate }) => {
       <div className="flex flex-wrap items-center justify-between gap-4 p-5 rounded-2xl bg-gradient-to-r from-slate-900 via-slate-900/90 to-blue-950/40 border border-slate-800 backdrop-blur-sm">
         <div className="flex items-center gap-4">
           <img
-            src={currentUser?.avatarUrl || '/src/assets/images/avatar_trader_sarah_1793624992270.jpg'}
+            src={currentUser?.avatarUrl || '/assets/images/avatar_trader_sarah_1793624992270.jpg'}
             alt={currentUser?.name}
             className="w-14 h-14 rounded-xl object-cover border border-slate-700 shadow-md"
             referrerPolicy="no-referrer"
