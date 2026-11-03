@@ -1,0 +1,6 @@
+{
+  "name": "TradePro - Premium Professional Trading Platform",
+  "description": "Professional multi-asset trading platform with interactive candlestick charts, virtual demo trading, real-time market depth, portfolio analytics, and administrative controls.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
